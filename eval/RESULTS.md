@@ -34,11 +34,21 @@ Model: gemini-4-hydrogen-low, 2 runs per condition.
 
 The term errors without the skill come from later sessions. The agent drops the existing "заявка" and writes "тикет" or "задача" for "ticket" instead. With the skill, the agent stores the terms in `i18n-glossary.json`, and later sessions read that file.
 
+Same test with a larger model, gemini-4-hydrogen-high, 2 runs per condition:
+
+| Metric | No skill, run 1 | No skill, run 2 | Skill, run 1 | Skill, run 2 |
+|---|---|---|---|---|
+| Term errors | 0/281 | 0/281 | 0/281 | 0/281 |
+| Missing keys | 0 | 0 | 0 | 0 |
+| New namespaces registered | 0/5 | 0/5 | 5/5 | 5/5 |
+
+The larger model kept the terms consistent without the skill. The skill still made the difference in registering new files.
+
 ## Limits
 
 - The runs are few: 2 or 3 per condition.
 - Only one target language (Russian) and one framework (i18next) were tested.
-- The scale test used a single model.
+- The scale test used two models from one family (gemini-4-hydrogen-low and -high).
 - The Haiku runs were done through Claude Code subagents, not with `run_eval.py`.
 
 ## Run it yourself

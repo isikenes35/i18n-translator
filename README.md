@@ -52,10 +52,11 @@ On Windows, run `py -3 tests/run_tests.py`.
 
 Full details are in `eval/RESULTS.md`.
 
-- **Scale test** (gemini-4-hydrogen-low, 2 runs per condition). The task was 221 keys in 6 files, translated into Russian over 3 separate agent sessions.
+- **Scale test** (gemini-4-hydrogen-low and -high, 2 runs per condition each). The task was 221 keys in 6 files, translated into Russian over 3 separate agent sessions.
   - Without the skill, 92-98 of about 280 term checks failed. Later sessions switched the existing word for "ticket" ("заявка") to other words.
   - With the skill, 0 term checks failed.
   - Every new namespace was registered in the app config with the skill (5/5) and none without it (0/5).
+  - With a larger model (gemini-4-hydrogen-high), there were no term errors with or without the skill. The difference that remained was registering the new namespaces in the app config: 5/5 with the skill, 0/5 without it.
 - **Small test** (30 keys, 2 sessions; 3 runs per condition with gemini-4-hydrogen-medium, gemini-4-hydrogen-low and Claude Haiku).
   - The translations were mostly correct with or without the skill. The one exception was a no-skill hydrogen-low run that dropped all `_other` plural forms.
   - The main difference was the new file. With the current skill it was registered in the app config every time; without the skill, in 1 of 9 runs.
