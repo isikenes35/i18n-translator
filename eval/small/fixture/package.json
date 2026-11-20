@@ -1,0 +1,1 @@
+{ "name": "taskboard", "private": true, "dependencies": { "react": "^19.0.0", "i18next": "^25.0.0", "react-i18next": "^15.0.0" } }

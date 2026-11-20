@@ -1,0 +1,21 @@
+{
+  "brand": "AcmeCloud",
+  "nav": {
+    "workspace": "Workspace",
+    "billing": "Billing",
+    "api_docs": "API documentation"
+  },
+  "greeting": "Welcome back, {{name}}!",
+  "terms_notice": "By continuing, you agree to the <a href=\"https://example.com/terms\">Terms</a> and <strong>Privacy Policy</strong>.",
+  "actions": {
+    "save": "Save changes",
+    "delete": "Delete workspace"
+  },
+  "cart": {
+    "items_one": "1 item in your workspace",
+    "items_other": "{{count}} items in your workspace"
+  },
+  "notifications": {
+    "invite_summary": "{gender, select, female {{count, plural, one {She invited # member.} other {She invited # members.}}} male {{count, plural, one {He invited # member.} other {He invited # members.}}} other {{count, plural, one {They invited # member.} other {They invited # members.}}}}"
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "files_count": "{count, plural, one {ملف واحد} other {# ملف}}",
+  "role_label": "{role, select, مدير {مسؤول} member {عضو}}"
+}

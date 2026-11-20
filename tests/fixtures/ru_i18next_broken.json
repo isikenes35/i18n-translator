@@ -1,0 +1,21 @@
+{
+  "brand": "АкмеКлауд",
+  "nav": {
+    "workspace": "Проект",
+    "billing": "Счета",
+    "api_docs": "Документация API"
+  },
+  "greeting": "С возвращением, {{user}}!",
+  "terms_notice": "Продолжая, вы принимаете <a href=\"https://example.com/terms\">Условия</a> и Политику конфиденциальности.",
+  "actions": {
+    "save": "Save changes",
+    "legacy_unused": "Устаревшая кнопка"
+  },
+  "cart": {
+    "items_one": "{{count}} элемент в рабочем пространстве",
+    "items_other": "{{count}} элементов в рабочем пространстве"
+  },
+  "notifications": {
+    "invite_summary": "{gender, select, female {{count, plural, one {Она пригласила # участника.} other {Она пригласила # участников.}} male {{count, plural, one {Он пригласил # участника.} other {Он пригласил # участников.}}}}"
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "files_count": "{count, plural, =0 {No files} one {# file} other {# files}}",
+  "role_label": "{role, select, admin {Administrator} member {Member} other {Guest}}"
+}

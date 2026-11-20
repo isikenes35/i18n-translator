@@ -1,0 +1,31 @@
+{
+  "nav": { "workspaces": "Workspaces", "boards": "Boards", "tickets": "Tickets", "settings": "Settings" },
+  "workspace": {
+    "create": "Create workspace",
+    "rename": "Rename workspace",
+    "leave": "Leave workspace",
+    "empty": "This workspace has no boards yet.",
+    "members_one": "{{count}} member",
+    "members_other": "{{count}} members",
+    "invite": "Invite people to <strong>{{workspace}}</strong>"
+  },
+  "board": {
+    "create": "Create board",
+    "archive": "Archive board",
+    "moved": "{{name}} moved this board to another workspace"
+  },
+  "tickets": {
+    "new": "New ticket",
+    "assign": "Assign ticket to {{user}}",
+    "count_one": "{{count}} ticket",
+    "count_other": "{{count}} tickets",
+    "overdue_one": "{{count}} overdue ticket",
+    "overdue_other": "{{count}} overdue tickets",
+    "closedBy": "Ticket closed by {{user}} on {{date}}"
+  },
+  "composer": { "placeholder": "Share an update with the board…" },
+  "actions": { "post": "Post", "save": "Save", "cancel": "Cancel" },
+  "labels": { "order": "Order" },
+  "sort": { "newest": "Newest first", "oldest": "Oldest first" },
+  "time": { "minutesAgo_one": "{{count}} minute ago", "minutesAgo_other": "{{count}} minutes ago" }
+}

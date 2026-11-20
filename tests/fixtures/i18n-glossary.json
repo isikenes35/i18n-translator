@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "sourceLocale": "en",
+  "styleNotes": {
+    "ru": "Use polite 'вы' (lowercase), concise infinitives for action buttons.",
+    "ar": "Modern Standard Arabic, concise UI labels.",
+    "tr": "Polite 'siz' form, short button labels."
+  },
+  "doNotTranslate": [
+    "AcmeCloud",
+    "API"
+  ],
+  "terms": [
+    {
+      "source": "Workspace",
+      "context": "Top-level team container",
+      "translations": {
+        "ru": "Рабочее пространство",
+        "ar": "مساحة العمل",
+        "tr": "Çalışma alanı"
+      },
+      "acceptedForms": {
+        "ru": [
+          "рабочего пространства",
+          "рабочем пространстве",
+          "рабочему пространству"
+        ],
+        "tr": [
+          "çalışma alanını",
+          "çalışma alanına"
+        ]
+      },
+      "avoid": {
+        "ru": ["Проект", "Кабинет"]
+      }
+    },
+    {
+      "source": "Billing",
+      "context": "Subscription and invoice settings",
+      "translations": {
+        "ru": "Оплата",
+        "ar": "الفوترة",
+        "tr": "Faturalandırma"
+      },
+      "acceptedForms": {
+        "ru": ["оплаты", "оплате", "оплату"]
+      }
+    }
+  ]
+}

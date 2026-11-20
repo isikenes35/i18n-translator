@@ -1,0 +1,18 @@
+{
+  "onboarding": {
+    "title": "Set up your first workspace",
+    "step1": "Name your workspace",
+    "step2": "Add a board for each team",
+    "step3": "Turn requests into tickets"
+  },
+  "limits": {
+    "boards_one": "Your plan allows {{count}} board per workspace",
+    "boards_other": "Your plan allows {{count}} boards per workspace",
+    "tickets_one": "{{count}} ticket left this month",
+    "tickets_other": "{{count}} tickets left this month"
+  },
+  "notifications": {
+    "assigned": "{{user}} assigned you a ticket on <strong>{{board}}</strong>",
+    "mentioned": "{{user}} mentioned you in a workspace update"
+  }
+}

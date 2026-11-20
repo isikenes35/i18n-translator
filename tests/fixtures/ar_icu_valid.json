@@ -1,0 +1,4 @@
+{
+  "files_count": "{count, plural, zero {لا توجد ملفات} one {ملف واحد} two {ملفان} few {# ملفات} many {# ملفاً} other {# ملف}}",
+  "role_label": "{role, select, admin {مسؤول} member {عضو} other {ضيف}}"
+}
